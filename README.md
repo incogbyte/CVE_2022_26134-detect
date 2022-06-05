@@ -1,6 +1,8 @@
 <h1 align="center">
   <br>
-  Confluence CVE_2022_26134 detect
+  Confluence CVE-2022-26134 detect
+  <br>
+  <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=2022-26134"> More info </a>
   </h1>
 
 <h4 align="center">Simple Python 3 script to detect the "Confluence RCE CVE_2022_26134" vulnerability (CVE_2022_26134) for a list of URL with multithreading </h4>
@@ -13,4 +15,16 @@ To do so, it sends a GET request using threads (higher performance) to each of t
 
 ### Usage
 
+```
+# deps, only requests lib
+pip3 install requests
+```
 
+```python3
+python3 main.py targets.txt foo.burpcollaborator.com
+```
+
+### PoC
+![](exp_01.png)
+
+![](exploit_3.png)

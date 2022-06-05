@@ -28,3 +28,10 @@ python3 main.py targets.txt foo.burpcollaborator.com
 ![](exp_01.png)
 
 ![](exploit_3.png)
+
+
+### Favicon search Shodan
+
+```
+http.favicon.hash:-305179312
+```

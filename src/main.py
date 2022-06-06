@@ -83,4 +83,4 @@ with ThreadPoolExecutor(max_workers=args.threads) as executor:
     for url in url_list:
         url_id += 1
         executor.submit(send_request, url, url_id)
-    print("[*] __AUTHOR__: rdr00t")
+    print("[*] __AUTHOR__: rodev1l")
